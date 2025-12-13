@@ -1,0 +1,78 @@
+/* NoteCard Component CSS */
+
+/* Card Container */
+.note-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .note-card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header - Title and Date */
+  .note-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .note-card-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .note-card-date {
+    font-size: 0.75rem;
+    color: #64748b;
+  }
+  
+  /* Content */
+  .note-card-content {
+    font-size: 0.875rem;
+    color: #334155;
+    margin: 0.5rem 0;
+  }
+  
+  /* Tags */
+  .note-card-tags {
+    font-size: 0.75rem;
+    color: #64748b;
+  }
+  
+  /* Icon Buttons */
+  .icon-btn {
+    font-size: 1.25rem;
+    color: #cbd5e1;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icon-btn:hover {
+    color: #3b82f6;
+  }
+  
+  /* Icon Colors Based on State */
+  .icon-btn.pinned {
+    color: #3b82f6;
+  }
+  
+  .icon-btn.edit:hover {
+    color: #16a34a;
+  }
+  
+  .icon-btn.delete:hover {
+    color: #ef4444;
+  }
+  
+  /* Flex Container for Icons */
+  .icon-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  

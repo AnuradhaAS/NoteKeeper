@@ -1,0 +1,114 @@
+
+.signup-container {
+    background-image: url('BG.webp'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-box {
+    width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    top: -10vh;
+}
+
+.signup-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-box {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.input-box:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.password-input-container {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #ddd;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.password-input-field {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 0;
+    border: none;
+    outline: none;
+}
+
+.icon-show,
+.icon-hide {
+    cursor: pointer;
+    color: #888;
+}
+
+.icon-show:hover,
+.icon-hide:hover {
+    color: #007bff;
+}
+
+
+.error-message {
+    color: #ff4d4f;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+.login-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.login-link a:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,99 @@
+.add-edit-notes-container {
+  position: relative;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+.close-btn {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.close-btn:hover {
+  background-color: #e2e8f0;
+}
+
+.close-icon {
+  font-size: 20px;
+  color: #4a5568;
+}
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #4a5568;
+}
+
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  outline: none;
+  color: #2d3748;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+  border-color: #3182ce;
+  box-shadow: 0 0 5px rgba(56, 189, 248, 0.3);
+}
+
+
+.textarea-field {
+  background-color: #f7fafc;
+  resize: vertical;
+}
+
+
+.tags-container {
+  margin-bottom: 20px;
+}
+
+
+.error-message {
+  color: #e53e3e;
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+
+.submit-btn {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: medium;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #2b6cb0;
+}

@@ -1,0 +1,51 @@
+
+.container {
+    padding: 20px;
+  }
+ 
+  .note-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 20px;
+  }
+
+  .add-button {
+    width: 64px; 
+    height: 64px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2563eb; 
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+
+  .add-button:hover {
+    background-color: #1d4ed8; 
+  }
+  
+
+  .modal-content {
+    width: 40%;
+    max-height: 75%;
+    background-color: white;
+    border-radius: 8px; 
+    padding: 20px; 
+    overflow-y: auto;
+    margin: auto; 
+    margin-top: 100px; 
+  }
+  
+
+  .icon {
+    font-size: 24px; 
+    color: white; 
+  }
+  
