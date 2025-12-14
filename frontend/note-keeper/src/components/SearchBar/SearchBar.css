@@ -1,6 +1,6 @@
 
 .search-bar-container {
-    width: 20rem; 
+    max-width: 20rem;
     display: flex;
     align-items: center;
     padding: 0 1rem;

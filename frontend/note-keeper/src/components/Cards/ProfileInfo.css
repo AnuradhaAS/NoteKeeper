@@ -1,6 +1,8 @@
 
 .profile-info-container {
     display: flex;
+    pointer-events: auto;
+  z-index: 100;
     align-items: center;
     gap: 0.75rem;
 }

@@ -16,9 +16,16 @@ const ProfileInfo = ({ userInfo, onLogout }) => {
         {userInfo ? (
           <>
             <p className="profile-name">{userInfo.fullName}</p>
-            <button className="logout-button" onClick={onLogout}>
-              Logout
-            </button>
+            <button
+  className="logout-button"
+  onClick={() => {
+    alert("Logout clicked");
+    onLogout();
+  }}
+>
+  Logout
+</button>
+
           </>
         ) : (
           <p className="profile-name">Welcome</p> // Handle the case when `userInfo` is null
