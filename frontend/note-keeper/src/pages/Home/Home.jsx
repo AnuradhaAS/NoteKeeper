@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import NoteCard from "../../components/Cards/NoteCard";
 import { MdAdd } from "react-icons/md";
 import Modal from "react-modal";
-import AddEditNotes from "./AddEditNotes"; // Ensure the path is correct
+import AddEditNotes from "./AddEditNotes"; 
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "../../utils/axiosInstance";

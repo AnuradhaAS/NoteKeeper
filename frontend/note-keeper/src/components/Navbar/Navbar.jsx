@@ -9,9 +9,8 @@ const Navbar = ({ userInfo, onSearchNote }) => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const onLogout = () => {
-      
-      
-    navigate("/login");
+    localStorage.removeItem("token");   
+  navigate("/login");
   };
 
   const handleSearch = () => {
