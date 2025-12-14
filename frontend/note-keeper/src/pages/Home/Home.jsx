@@ -126,10 +126,18 @@ if(
       console.log(error);
     }
   };
-  useEffect(() => {
-    getAllNotes();
-    getUserInfo();
-  }, []);
+useEffect(() => {
+  const token = localStorage.getItem("token");
+
+  if (!token) {
+    navigate("/login");
+    return;
+  }
+
+  getAllNotes();
+  getUserInfo();
+}, []);
+
 
   return (
     <>
